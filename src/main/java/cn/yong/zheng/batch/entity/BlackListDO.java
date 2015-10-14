@@ -1,7 +1,7 @@
 /**
  * 
  */
-package cn.fraudmetrix.kratos.batch.entity;
+package cn.yong.zheng.batch.entity;
 
 import java.io.Serializable;
 import java.sql.Timestamp;

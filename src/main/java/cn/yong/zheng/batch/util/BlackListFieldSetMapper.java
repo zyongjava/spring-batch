@@ -1,4 +1,4 @@
-package cn.fraudmetrix.kratos.batch.util;
+package cn.yong.zheng.batch.util;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -6,7 +6,7 @@ import org.springframework.batch.item.file.mapping.FieldSetMapper;
 import org.springframework.batch.item.file.transform.FieldSet;
 import org.springframework.validation.BindException;
 
-import cn.fraudmetrix.kratos.batch.entity.BlackListDO;
+import cn.yong.zheng.batch.entity.BlackListDO;
 
 public class BlackListFieldSetMapper implements FieldSetMapper<BlackListDO> {
 	

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package cn.fraudmetrix.kratos.batch.util;
+package cn.yong.zheng.batch.util;
 
 import java.sql.Timestamp;
 import java.util.Date;
@@ -10,7 +10,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.batch.item.ItemProcessor;
 
-import cn.fraudmetrix.kratos.batch.entity.BlackListDO;
+import cn.yong.zheng.batch.entity.BlackListDO;
 
 /**
  * @author zhengyong

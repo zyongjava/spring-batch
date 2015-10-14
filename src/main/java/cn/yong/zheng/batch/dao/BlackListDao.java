@@ -1,11 +1,11 @@
 /**
  * 
  */
-package cn.fraudmetrix.kratos.batch.dao;
+package cn.yong.zheng.batch.dao;
 
 import org.springframework.data.repository.CrudRepository;
 
-import cn.fraudmetrix.kratos.batch.entity.BlackListDO;
+import cn.yong.zheng.batch.entity.BlackListDO;
 
 
 /**

@@ -1,4 +1,4 @@
-package cn.fraudmetrix.kratos.batch.config;
+package cn.yong.zheng.batch.config;
 
 
 import javax.sql.DataSource;
@@ -27,10 +27,10 @@ import org.springframework.core.io.ClassPathResource;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.transaction.PlatformTransactionManager;
 
-import cn.fraudmetrix.kratos.batch.entity.BlackListDO;
-import cn.fraudmetrix.kratos.batch.util.BlackListDOItemProcessor;
-import cn.fraudmetrix.kratos.batch.util.BlackListFieldSetMapper;
-import cn.fraudmetrix.kratos.batch.util.BlackListItemWriter;
+import cn.yong.zheng.batch.entity.BlackListDO;
+import cn.yong.zheng.batch.util.BlackListDOItemProcessor;
+import cn.yong.zheng.batch.util.BlackListFieldSetMapper;
+import cn.yong.zheng.batch.util.BlackListItemWriter;
 
 @Configuration
 @EnableBatchProcessing

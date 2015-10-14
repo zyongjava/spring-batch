@@ -1,7 +1,7 @@
 /**
  * 
  */
-package cn.fraudmetrix.kratos.batch.service.impl;
+package cn.yong.zheng.batch.service.impl;
 
 import java.util.List;
 
@@ -9,9 +9,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import cn.fraudmetrix.kratos.batch.dao.BlackListDao;
-import cn.fraudmetrix.kratos.batch.entity.BlackListDO;
-import cn.fraudmetrix.kratos.batch.service.BlackListService;
+import cn.yong.zheng.batch.dao.BlackListDao;
+import cn.yong.zheng.batch.entity.BlackListDO;
+import cn.yong.zheng.batch.service.BlackListService;
 
 /**
  * @author zhengyong

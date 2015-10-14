@@ -1,11 +1,11 @@
 /**
  * 
  */
-package cn.fraudmetrix.kratos.batch.service;
+package cn.yong.zheng.batch.service;
 
 import java.util.List;
 
-import cn.fraudmetrix.kratos.batch.entity.BlackListDO;
+import cn.yong.zheng.batch.entity.BlackListDO;
 
 /**
  * @author zhengyong

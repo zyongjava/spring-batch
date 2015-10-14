@@ -1,4 +1,4 @@
-package cn.fraudmetrix.kratos.batch.listener;
+package cn.yong.zheng.batch.listener;
 
 import java.util.List;
 
@@ -11,8 +11,8 @@ import org.springframework.batch.core.listener.JobExecutionListenerSupport;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import cn.fraudmetrix.kratos.batch.entity.BlackListDO;
-import cn.fraudmetrix.kratos.batch.service.BlackListService;
+import cn.yong.zheng.batch.entity.BlackListDO;
+import cn.yong.zheng.batch.service.BlackListService;
 
 @Component
 public class JobCompletionNotificationListener extends JobExecutionListenerSupport {

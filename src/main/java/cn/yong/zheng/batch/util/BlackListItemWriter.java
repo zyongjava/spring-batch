@@ -1,4 +1,4 @@
-package cn.fraudmetrix.kratos.batch.util;
+package cn.yong.zheng.batch.util;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.batch.item.ItemWriter;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import cn.fraudmetrix.kratos.batch.entity.BlackListDO;
-import cn.fraudmetrix.kratos.batch.service.BlackListService;
+import cn.yong.zheng.batch.entity.BlackListDO;
+import cn.yong.zheng.batch.service.BlackListService;
 
 public class BlackListItemWriter implements ItemWriter<BlackListDO>{
 	
