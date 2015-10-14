@@ -1,4 +1,4 @@
-package cn.fraudmetrix.kratos.batch;
+package src.test.java.cn.yong.zheng.batch;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
