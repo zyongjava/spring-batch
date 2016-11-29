@@ -36,7 +36,6 @@ public class BlackListDO implements Serializable {
 	private String createBy;
 	private String updateBy;
 	private String partnerCode;
-	@Column(name = "fk_list_name_uuid")
 	private String listNameUuid;
 
 	public Long getId() {

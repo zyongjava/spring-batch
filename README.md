@@ -6,6 +6,6 @@
 
 #### 运行方式
 
-  1. 新建一个数据库,并建立对象BlackListDO对应表black_list
+  1. 更新数据库连接用户名和密码即可运行,数据库表结构hibernater会自动创建
 
-  2. maven打成jar包后,将run.sh拷贝至spring-batch-1.0.0-SNAPSHOT.jar包同级目录执行
+  2. maven打成jar包后,将使用命令 `java -jar spring-batch.jar` 启动spring-batch-1.0.0-SNAPSHOT.jar
