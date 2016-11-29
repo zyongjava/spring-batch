@@ -1,0 +1,1 @@
+nohup java -jar spring-batch-1.0.0-SNAPSHOT.jar --spring.config.location=application.properties &

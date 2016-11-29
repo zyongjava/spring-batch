@@ -18,7 +18,7 @@ import javax.persistence.Table;
  *
  */
 @Entity
-@Table(name = "admin_list_value")
+@Table(name = "black_list")
 public class BlackListDO implements Serializable {
 
 	private static final long serialVersionUID = 659538418080127758L;
