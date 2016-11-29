@@ -8,4 +8,4 @@
 
   1. 新建一个数据库,并建立对象BlackListDO对应表black_list
 
-  2. maven打成jar包后,将run.sh拷贝至spring-batch-1.0.0-SNAPSHOT.jar包统计目录执行
+  2. maven打成jar包后,将run.sh拷贝至spring-batch-1.0.0-SNAPSHOT.jar包同级目录执行
